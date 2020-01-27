@@ -6,7 +6,7 @@ shinyUI(
   dashboardPage(title = "India Trade", skin = "yellow",
                 
                 dashboardHeader(title = "India - Export & Import", titleWidth = 800, 
-                                tags$li(class="dropdown", tags$a(href="https://github.com/kamsingh11/Visual-Analytics-Projects",icon("github"),"Source Code",target="_blank"))),
+                                tags$li(class="dropdown", tags$a(href="https://github.com/Vishnu-Madamanchi/India_Trade_Shiny_Dashboard",icon("github"),"Source Code",target="_blank"))),
                 #title = span(tagList(img(src="github.jfif", width = 60), tags$a(href="https://github.com/kamsingh11/datascience")))),
                 dashboardSidebar(
                   width = 200,
